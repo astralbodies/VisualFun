@@ -23,6 +23,7 @@
 		936813AF16ED5A8900C5D898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9368138A16ED5A8900C5D898 /* Foundation.framework */; };
 		936813B716ED5A8900C5D898 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 936813B516ED5A8900C5D898 /* InfoPlist.strings */; };
 		936813BA16ED5A8900C5D898 /* Visual_FunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 936813B916ED5A8900C5D898 /* Visual_FunTests.m */; };
+		936813C716ED5CE900C5D898 /* NWZCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 936813C616ED5CE900C5D898 /* NWZCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		936813B616ED5A8900C5D898 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		936813B816ED5A8900C5D898 /* Visual_FunTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Visual_FunTests.h; sourceTree = "<group>"; };
 		936813B916ED5A8900C5D898 /* Visual_FunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Visual_FunTests.m; sourceTree = "<group>"; };
+		936813C516ED5CE900C5D898 /* NWZCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWZCircleView.h; sourceTree = "<group>"; };
+		936813C616ED5CE900C5D898 /* NWZCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWZCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				936813A116ED5A8900C5D898 /* NWZViewController.m */,
 				936813A316ED5A8900C5D898 /* NWZViewController.xib */,
 				9368138F16ED5A8900C5D898 /* Supporting Files */,
+				936813C516ED5CE900C5D898 /* NWZCircleView.h */,
+				936813C616ED5CE900C5D898 /* NWZCircleView.m */,
 			);
 			path = "Visual Fun";
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 				9368139516ED5A8900C5D898 /* main.m in Sources */,
 				9368139916ED5A8900C5D898 /* NWZAppDelegate.m in Sources */,
 				936813A216ED5A8900C5D898 /* NWZViewController.m in Sources */,
+				936813C716ED5CE900C5D898 /* NWZCircleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
